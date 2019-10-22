@@ -16,36 +16,68 @@
     display: none;
 }
 
-.fc-toolbar .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
-    color: #fff;
-    background-color: #2dce89;
-    border-color: #2dce89;
-    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08)
+/* SCHEDULE - NGX CALENDAR */
+
+.fc-toolbar .fc-header-toolbar button{
+    color: #212529 !important;
+    background-color: #f7fafc !important;
+    border-color: #f7fafc !important;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
 }
 
+.fc-next-button{
+    color: #212529 !important;
+    background-color: #f7fafc !important;
+    border-color: #f7fafc !important;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
 
 .fc-month-button{
-    text-transform: capitalize;
+    color: #212529 !important;
+    background-color: #f7fafc !important;
+    border-color: #f7fafc !important;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+    text-transform: capitalize !important; 
 }
 
 .fc-prev-button{
-    text-transform: capitalize;
+    color: #212529 !important;
+    background-color: #f7fafc !important;
+    border-color: #f7fafc !important;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+    text-transform: capitalize !important;
 }
 
 .fc-agendaWeek-button{
-    text-transform: capitalize;
+    color: #212529 !important;
+    background-color: #f7fafc !important;
+    border-color: #f7fafc !important;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+    text-transform: capitalize !important;
 }
 
 .fc-agendaDay-button {
-    text-transform: capitalize;
+    color: #212529 !important;
+    background-color: #f7fafc !important;
+    border-color: #f7fafc !important;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+    text-transform: capitalize !important;
 }
 
 .fc-listWeek-button{
-    text-transform: capitalize;
+    color: #212529 !important;
+    background-color: #f7fafc !important;
+    border-color: #f7fafc !important;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+    text-transform: capitalize !important;
 }
 
 .fc-today-button{
-    text-transform: capitalize;
+    color: #212529 !important;
+    background-color: #f7fafc !important;
+    border-color: #f7fafc !important;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+    text-transform: capitalize !important;
 }
 
 .fc-event{
@@ -55,27 +87,43 @@
 }
 
 .fc-today{
-    background-color: #a6fff761 !important;
+    background-color: #ececec61 !important;
 }
 
-/* TOASTR BUGFIX */
-#toast-container > div {
-    opacity: 1;
-  }
-  .toast {
-    font-size: initial !important;
-    border: initial !important;
-    backdrop-filter: blur(0) !important;
-  }
-  .toast-success {
-    background-color: #51A351 !important;
-  }
-  .toast-error {
-    background-color: #BD362F !important;
-  }
-  .toast-info {
-    background-color: #2F96B4 !important;
-  }
-  .toast-warning {
-    background-color: #F89406 !important;
-  }
+.fc button, .fc table, body .fc {
+    font-size: 13px !important;
+}
+
+.fc-day-header{
+    font-size: .75rem !important;
+    font-weight: 600 !important;
+    padding: .75rem 1rem !important;
+    text-transform: uppercase !important;
+    color: #8898aa !important;
+}
+
+.table-bordered thead th, .table-bordered thead td {
+    border-bottom-width:0px !important;
+}
+
+.table-bordered thead td, .table-bordered thead th {
+    border-bottom-width: 0px !important;
+}
+
+.fc td, .fc th{
+    padding: 2px !important;
+}
+
+.fc-left h2{
+    font-size: 16px !important;
+}
+
+.fc-view-container *, .fc-view-container :after, .fc-view-container :before {
+    /* border-left: none !important;
+    border-right: none !important; */
+}
+
+.fc-toolbar .fc-header-toolbar{
+    /* padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important; */
+}
