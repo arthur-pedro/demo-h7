@@ -32,7 +32,7 @@
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
 }
 
-.fc-month-button{
+.fc-dayGridMonth-button{
     color: #212529 !important;
     background-color: #f7fafc !important;
     border-color: #f7fafc !important;
@@ -48,7 +48,7 @@
     text-transform: capitalize !important;
 }
 
-.fc-agendaWeek-button{
+.fc-timeGridWeek-button{
     color: #212529 !important;
     background-color: #f7fafc !important;
     border-color: #f7fafc !important;
@@ -56,7 +56,7 @@
     text-transform: capitalize !important;
 }
 
-.fc-agendaDay-button {
+.fc-timeGridDay-button {
     color: #212529 !important;
     background-color: #f7fafc !important;
     border-color: #f7fafc !important;
@@ -81,7 +81,7 @@
 }
 
 .fc-event{
-    line-height: 1.8 !important;
+    line-height: 1.9 !important;
     text-align: center !important;
     border-radius: 2px !important;
 }
@@ -115,15 +115,10 @@
 }
 
 .fc-left h2{
-    font-size: 16px !important;
+    font-size: 18px !important;
 }
 
-.fc-view-container *, .fc-view-container :after, .fc-view-container :before {
-    /* border-left: none !important;
-    border-right: none !important; */
-}
 
-.fc-toolbar .fc-header-toolbar{
-    /* padding-left: 1.5rem !important;
-    padding-right: 1.5rem !important; */
+.fc-unthemed .fc-content, .fc-unthemed .fc-divider, .fc-unthemed .fc-list-heading td, .fc-unthemed .fc-list-view, .fc-unthemed .fc-popover, .fc-unthemed .fc-row, .fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead {
+    border-color: #f1f1f1 !important;
 }
