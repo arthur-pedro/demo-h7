@@ -12,6 +12,19 @@
     background: #dad7d7;
 }
 
+.without_ampm::-webkit-datetime-edit-ampm-field {
+    display: none;
+}
+
+input[type=time]::-webkit-clear-button {
+-webkit-appearance: none;
+-moz-appearance: none;
+-o-appearance: none;
+-ms-appearance:none;
+appearance: none;
+margin: -10px; 
+}
+
 .hide{
     display: none;
 }
@@ -115,7 +128,8 @@
 }
 
 .fc-left h2{
-    font-size: 18px !important;
+    font-size: 20px !important;
+    color: #525f7f !important;
 }
 
 
@@ -123,4 +137,6 @@
     border-color: #f1f1f1 !important;
 }
 
-
+.fc-view-container{
+    margin-top: 2rem !important;
+}
